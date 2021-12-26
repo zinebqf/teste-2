@@ -1,0 +1,57 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 70px 0px;
+    background:url('image1.PNG') no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+#contact-form {
+    font-size: 20px;
+    background: none;
+    border-radius: 10px;
+    margin-top: 380px;
+}
+.blue {
+    color: #020202;
+}
+.form-control {
+    height: 35px;
+    font-size: 15px;
+    border-top: none;
+    border-bottom-width: 2px;
+    border-left: none;
+    border-right: none;
+}
+.comments {
+    font-style: italic;
+    font-size: 18px;
+    color: #291f1f;
+    height: 25px
+}
+
+.button1 {
+    border: 1px solid #ddd;
+    background: #5e5e5e;
+    color: #fff;
+    width: 100%;        
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.button1:hover {
+    background: #333;
+    border-color: #474746;
+}
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
